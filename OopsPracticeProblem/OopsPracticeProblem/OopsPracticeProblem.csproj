@@ -46,8 +46,10 @@
     <Compile Include="ChildClass.cs" />
     <Compile Include="Inheritance1.cs" />
     <Compile Include="ObjectCalss.cs" />
+    <Compile Include="Drawing.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shape.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

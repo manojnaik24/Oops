@@ -36,6 +36,12 @@ namespace OopsPracticeProblem
                         ChildClass.Division();
                         break;
 
+                        case 3:
+                       Drawing d= new Drawing();
+                        d.Fun();
+                        Shape .Fun();
+                        break; 
+
 
                 }
             }
