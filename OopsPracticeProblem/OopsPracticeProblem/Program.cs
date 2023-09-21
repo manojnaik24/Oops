@@ -30,6 +30,11 @@ namespace OopsPracticeProblem
                         o.Print();
                         break;
 
+                        case 2:
+                        ChildClass c=new ChildClass();
+                        c.ParentClass();
+                        ChildClass.Division();
+                        break;
 
 
                 }
