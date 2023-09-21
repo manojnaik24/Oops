@@ -15,6 +15,7 @@ namespace OopsPracticeProblem
                               "\n2) Create a program with Inheritance concept with example."+
                               "\n3) Create a program with Polymorphism concept along with types of polymorphism." +
                               "\n4) Create a program with Encapsulation concept with example."+
+                              "\n5) Create a program with Abstraction concept."+
                               "\n0) Quit");
             int n=int.Parse(Console.ReadLine());
             if (n == 0)
@@ -50,6 +51,12 @@ namespace OopsPracticeProblem
 
 
                         break;
+
+                        case 5:
+                        Simply simply= new Simply();
+                        simply.fun2();
+                        break;
+
                         
 
                 }
