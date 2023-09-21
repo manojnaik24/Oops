@@ -20,6 +20,7 @@ namespace OopsPracticeProblem
         public void Fun(int a,int b,double c)
         {
             double sum = a + b + c;
+            Console.WriteLine(sum);
         }
        
     }

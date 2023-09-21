@@ -13,6 +13,8 @@ namespace OopsPracticeProblem
             Console.WriteLine("Oops Concept Practice Problem");
             Console.WriteLine("1) Create a program with object and class concept with example."+
                               "\n2) Create a program with Inheritance concept with example."+
+                              "\n3) Create a program with Polymorphism concept along with types of polymorphism." +
+                              "\n4) Create a program with Encapsulation concept with example."+
                               "\n0) Quit");
             int n=int.Parse(Console.ReadLine());
             if (n == 0)
@@ -38,10 +40,17 @@ namespace OopsPracticeProblem
 
                         case 3:
                        Drawing d= new Drawing();
-                        d.Fun();
                         Shape .Fun();
                         break; 
 
+                        case 4:
+                        string name= Console.ReadLine();
+                        int age=int.Parse(Console.ReadLine()) ;
+                        Encapsulation.Name(name,age);
+
+
+                        break;
+                        
 
                 }
             }
