@@ -54,6 +54,15 @@ namespace OopsPracticeProblem
                         variablesClass.Vari();
                         break;
 
+                        case 6:
+                        TypeOfMethods type=new TypeOfMethods();
+                        type.Add(34,56);
+                        type.PrintWelcomeMessage();
+                        type.DisplayMessage("manoj",25);
+                        break;
+
+                        
+
                 }
             }
             Console.ReadLine();

@@ -8,6 +8,11 @@ namespace OopsPracticeProblem
 {
     internal class variablesClass
     {
+        internal static void Vari()
+        {
+            throw new NotImplementedException();
+        }
+
         public void Variabl()
         {
             int integerVar = 42;
