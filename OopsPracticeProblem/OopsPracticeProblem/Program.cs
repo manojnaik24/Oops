@@ -47,10 +47,12 @@ namespace OopsPracticeProblem
                         string name= Console.ReadLine();
                         int age=int.Parse(Console.ReadLine()) ;
                         Encapsulation.Name(name,age);
-
-
                         break;
-                        
+
+                    case 5:
+                        variablesClass v=new variablesClass();
+                        variablesClass.Vari();
+                        break;
 
                 }
             }
